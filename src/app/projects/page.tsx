@@ -4,11 +4,19 @@ export default function ProjectsPage() {
   const projects = [
     {
       id: 1,
-      title: "Landing Page",
+      title: "Apex Landing Page",
       description: "Modern and responsive landing page, optimized for conversions.",
       image: "/apex.png",
       technologies: ["React", "Next.js", "TypeScript", "Radix UI", "Tailwind CSS"],
       link: "https://apex-amber-three.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "TypeWriter Landing Page",
+      description: "A sleek and modern landing page for email tool application.",
+      image: "/typewriter.png",
+      technologies: ["React", "Next.js", "TypeScript", "Radix UI", "Tailwind CSS"],
+      link: "https://type-writer-ecru.vercel.app/",
     },
   ]
 
